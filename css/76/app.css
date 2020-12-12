@@ -60,3 +60,7 @@ a[href*="google"] {
   background-color: #e63946;
   color: #f1faee;
 }
+
+.post button:active {
+  background-color: green;
+}
