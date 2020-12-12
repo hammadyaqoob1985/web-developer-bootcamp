@@ -64,3 +64,12 @@ a[href*="google"] {
 .post button:active {
   background-color: green;
 }
+/* the third one */
+/* .post:nth-of-type(3) {
+  background-color: #dfe8dc;
+} */
+
+/* every third one */
+.post:nth-of-type(3n) {
+  background-color: #dfe8dc;
+}
