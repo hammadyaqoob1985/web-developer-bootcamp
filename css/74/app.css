@@ -37,3 +37,12 @@ span {
 footer a {
   color: #e63946;
 }
+/* button stright after input on same level */
+h2 + button {
+  font-size: 20px;
+}
+
+/*  li is direct child of div */
+footer > a {
+  color: #457b9d;
+}
