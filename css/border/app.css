@@ -16,6 +16,7 @@
   border-width: 5px;
   border-style: dashed;
   border-left-color: blueviolet;
+  padding-right: 50px;
 }
 
 #paragraph3 {
@@ -29,4 +30,10 @@
 h1 {
   background-color: yellow;
   width: 150px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+button {
+  padding: 10px 20px 30px 40px;
 }
