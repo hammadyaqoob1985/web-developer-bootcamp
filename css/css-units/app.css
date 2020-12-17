@@ -1,0 +1,43 @@
+section {
+  background-color: #6d6875;
+  width: 800px;
+  height: 800px;
+}
+
+div {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+  line-height: 200%;
+}
+/* em is relative to parent font size. i.e 2 * 30px = 2em */
+#ems h2 {
+  font-size: 2em;
+  /* relative to font size of element. Can be used for button padding and border radius */
+  margin-left: 1em;
+}
+
+#ems {
+  font-size: 30px;
+}
+
+#ems p {
+  font-size: 0.8em;
+}
+
+#ems ul {
+  font-size: 1.5em;
+}
+/* rems is relative to root font size */
+#rems h2 {
+  font-size: 3rem;
+}
+
+#rems ul {
+  font-size: 0.8rem;
+}
